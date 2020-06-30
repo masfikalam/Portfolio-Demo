@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    padding: 120px 10% 0 10%;
+    padding: 80px 10% 0 10%;
     height: 100%;
 }
 
@@ -16,6 +16,7 @@ body {
 
 .large {
     font-size: 44px;
+    text-align: center;
 }
 
 .small {
@@ -49,7 +50,7 @@ body {
 header {
     background-image: url("img/header-bg.png");
     background-size: cover;
-    min-height: 800px;
+    min-height: 700px;
 }
 
 header .link-btn {
@@ -59,9 +60,34 @@ header .link-btn {
 #bio {
     background-image: url("img/bio-bg.png");
     background-size: cover;
-    min-height: 700px;
+    min-height: 600px;
 }
 
 #bio .link-btn {
     background-color: #ff1872;
+}
+
+#works {
+    background-image: url("img/latest-work-bg.png");
+    background-size: cover;
+    min-height: 600px;
+}
+
+#works .all {
+    margin-top: 80px;
+}
+
+#works .all .work {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(to right, red, yellow, green);
+    border-image-slice: 1;
+    border-radius: 20px 0 0 20px;
+}
+
+#works .all .work:hover {
+    transform: scale(0.9);
+    transition: .5s ease-out;
 }
