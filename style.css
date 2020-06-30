@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    padding: 120px 10% 0 10%;
+    height: 100%;
+}
+
+.xlarge {
+    font-size: 56px;
+    color: #3c95f9;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.large {
+    font-size: 44px;
+}
+
+.small {
+    font-size: 22px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 40px;
+}
+
+.left {
+    float: left;
+    width: 40%;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+.link-btn {
+    box-shadow: 0 0 8px 1px #acacac;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.link-btn:hover {
+    box-shadow: 0 0 12px 1px #868686;
+}
+
+header {
+    background-image: url("img/header-bg.png");
+    background-size: cover;
+    min-height: 800px;
+}
+
+header .link-btn {
+    background-color: blue;
+}
+
+#bio {
+    background-image: url("img/bio-bg.png");
+    background-size: cover;
+    min-height: 700px;
+}
+
+#bio .link-btn {
+    background-color: #ff1872;
+}
