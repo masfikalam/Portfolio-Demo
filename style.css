@@ -73,6 +73,12 @@ header .link-btn {
     background-color: #ff1872;
 }
 
+header img:hover,
+#bio img:hover {
+    transform: scale(0.9);
+    transition: .5s ease-out;
+}
+
 #works {
     background-image: url("img/latest-work-bg.png");
     background-size: cover;
