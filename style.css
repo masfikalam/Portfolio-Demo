@@ -74,7 +74,9 @@ header .link-btn {
 }
 
 header img:hover,
-#bio img:hover {
+#bio img:hover,
+#works .all .work:hover,
+#skills img:hover {
     transform: scale(0.9);
     transition: .5s ease-out;
 }
@@ -99,9 +101,20 @@ header img:hover,
     border-radius: 20px 0 0 20px;
 }
 
-#works .all .work:hover {
-    transform: scale(0.9);
-    transition: .5s ease-out;
+#skills {
+    background-image: url("img/bio-bg.png");
+    min-height: 500px;
+}
+
+#skills ul {
+    margin-left: 80px;
+}
+
+#skills .skill,
+#skills .photo {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
 }
 
 #links {
